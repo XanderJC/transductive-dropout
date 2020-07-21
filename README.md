@@ -1,8 +1,8 @@
 # Tranductive Dropout
 
-Example code for the [paper](https://arxiv.org/abs/2006.14988):
+Example code for the paper:
 
-## Unlabelled Data Improves Bayesian Uncertainty Calibration under Covariate Shift
+## [Unlabelled Data Improves Bayesian Uncertainty Calibration under Covariate Shift](https://arxiv.org/abs/2006.14988)
 
 ### Alex J. Chan, Ahmed M. Alaa, Zhaozhi Qian, and Mihaela van der Schaar
 
@@ -17,8 +17,8 @@ Code Author: Alex Chan (ajc340@cam.ac.uk)
 An implementation of a transductive dropout network class can be found in models.py and a walkthrough of its use in an example regression problem is provided in tutorial.ipynb
 
 Dependencies:
-Autograd
-matplotlib
+Autograd, 
+matplotlib, 
 tqdm
 
 Reference: 
