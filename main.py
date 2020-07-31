@@ -1,4 +1,5 @@
 import autograd.numpy.random as npr
+import autograd.numpy as np
 
 from models import transductive
 from utils import nice_plot
