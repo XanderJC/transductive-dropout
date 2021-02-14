@@ -18,7 +18,7 @@ from models import transductive
 
 # Get data somehow
 
-X,y,unlablled_X = get_data()
+X,y,unlabelled_X = get_data()
 
 # Instantiate transductive dropout model
 
@@ -36,10 +36,8 @@ If you use this software please cite as follows:
 ```
 @inproceedings{chan2020unlabelled,
   title={Unlabelled data improves {B}ayesian uncertainty calibration under covariate shift},
-  author={Chan, Alex and Alaa, Ahmed and Qian, Zhaozhi and Van Der Schaar, Mihaela},
+  author={Alex James Chan and Ahmed Alaa and Zhaozhi Qian and Mihaela van der Schaar},
   booktitle={International Conference on Machine Learning},
-  pages={1392--1402},
-  year={2020},
-  organization={PMLR}
+  year={2020}
 }
 ```
