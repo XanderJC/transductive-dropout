@@ -5,16 +5,29 @@
 
 ### International Conference on Machine Learning (ICML) 2020
 
-Last Updated: 21 July 2020
+ [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+ <a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
+
+Last Updated: 11 March 2021
 
 Code Author: Alex J. Chan (ajc340@cam.ac.uk)
 
 An implementation of a transductive dropout network class can be found in models.py and a walkthrough of its use in an example regression problem is provided in tutorial.ipynb
 
+This repo is pip installable - clone it, optionally create a virtual env, and install it (this will automatically install dependencies):
+
+```shell
+git clone https://github.com/XanderJC/transductive-dropout.git
+
+cd transductive-dropout
+
+pip install -e .
+```
+
 Example usage:
 
 ```python
-from models import transductive
+from TD import transductive
 
 # Get data somehow
 
