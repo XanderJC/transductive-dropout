@@ -16,7 +16,7 @@ setuptools.setup(
     install_requires=[
         "autograd==1.3",
         "matplotlib==3.1.1",
-        "numpy==1.19.1",
+        "numpy==1.22.0",
         "tqdm==4.36.1",
     ],
     classifiers=[
